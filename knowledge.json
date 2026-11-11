@@ -1,0 +1,1142 @@
+{
+  "fallback": "No encontré una respuesta para eso. Escribe 'ayuda' para ver los temas disponibles.",
+  "rules": [
+    {
+      "keywords": [
+        "hola",
+        "buenos días",
+        "buenas"
+      ],
+      "response": "¡Hola! Soy Metatrón AI. ¿En qué puedo ayudarte?"
+    },
+    {
+      "keywords": [
+        "ayuda",
+        "qué puedes hacer"
+      ],
+      "response": "Puedo responder preguntas configuradas por mi administrador. Prueba con horarios, servicios o contacto."
+    },
+    {
+      "keywords": [
+        "horario",
+        "abren",
+        "abierto"
+      ],
+      "response": "Aún no se configuraron los horarios. El administrador puede editarlos en config/knowledge.json."
+    },
+    {
+      "category": "Conversación general",
+      "keywords": [
+        "como estas",
+        "que tal estas"
+      ],
+      "response": "Estoy listo para ayudarte. Cuéntame qué necesitas y te responderé con la información y funciones que tenga configuradas."
+    },
+    {
+      "category": "Conversación general",
+      "keywords": [
+        "gracias",
+        "muchas gracias"
+      ],
+      "response": "¡De nada! Si quieres, dime qué más necesitas y seguimos."
+    },
+    {
+      "category": "Conversación general",
+      "keywords": [
+        "no entiendo",
+        "explicalo mas simple"
+      ],
+      "response": "Claro. Puedo explicarlo paso a paso y con palabras más sencillas. Dime qué parte quieres revisar."
+    },
+    {
+      "category": "Conversación general",
+      "keywords": [
+        "repite",
+        "puedes repetir"
+      ],
+      "response": "Claro, puedo repetirlo o resumirlo. ¿Qué parte quieres que vuelva a explicar?"
+    },
+    {
+      "category": "Conversación general",
+      "keywords": [
+        "adios",
+        "hasta luego"
+      ],
+      "response": "¡Hasta luego! Cuando quieras continuar, escríbeme de nuevo."
+    },
+    {
+      "category": "Conversación general",
+      "keywords": [
+        "ayuda chatbot",
+        "comandos de ayuda"
+      ],
+      "response": "Puedo contestar con mi base de reglas, guardar recuerdos solo con tu permiso y usar los canales que el administrador haya conectado."
+    },
+    {
+      "category": "Saludos y despedidas",
+      "keywords": [
+        "saludo buenos dias",
+        "buen dia"
+      ],
+      "response": "¡Buenos días! ¿En qué puedo ayudarte hoy?"
+    },
+    {
+      "category": "Saludos y despedidas",
+      "keywords": [
+        "saludo buenas tardes"
+      ],
+      "response": "¡Buenas tardes! Cuéntame qué necesitas."
+    },
+    {
+      "category": "Saludos y despedidas",
+      "keywords": [
+        "saludo buenas noches"
+      ],
+      "response": "¡Buenas noches! Estoy aquí para ayudarte."
+    },
+    {
+      "category": "Saludos y despedidas",
+      "keywords": [
+        "hasta manana",
+        "nos vemos manana"
+      ],
+      "response": "¡Hasta mañana! Retomamos cuando vuelvas."
+    },
+    {
+      "category": "Saludos y despedidas",
+      "keywords": [
+        "me voy",
+        "tengo que irme"
+      ],
+      "response": "Entendido. Que tengas buen día; aquí estaré cuando vuelvas."
+    },
+    {
+      "category": "Identidad",
+      "keywords": [
+        "quien eres",
+        "identidad metatron"
+      ],
+      "response": "Soy METATRÓN AI, un asistente configurable que responde con reglas y datos locales. En esta configuración no uso un modelo de IA externo."
+    },
+    {
+      "category": "Identidad",
+      "keywords": [
+        "quien te creo",
+        "quien desarrollo este bot"
+      ],
+      "response": "Soy un software llamado METATRÓN AI. La información sobre quien lo administra debe configurarse en el archivo de respuestas."
+    },
+    {
+      "category": "Identidad",
+      "keywords": [
+        "eres humano",
+        "eres una persona"
+      ],
+      "response": "No, soy un programa de computadora. Puedo ayudarte con las funciones que están instaladas y configuradas."
+    },
+    {
+      "category": "Identidad",
+      "keywords": [
+        "capacidades funciones metatron"
+      ],
+      "response": "Puedo responder preguntas configuradas, guardar datos que me pidas recordar si activas el consentimiento y usar integraciones habilitadas por el administrador."
+    },
+    {
+      "category": "Identidad",
+      "keywords": [
+        "tienes internet conexion"
+      ],
+      "response": "Mis respuestas locales no necesitan Internet. Consultar sitios, APIs o enviar mensajes a plataformas sí requiere conexión y credenciales válidas."
+    },
+    {
+      "category": "Inteligencia artificial",
+      "keywords": [
+        "que es inteligencia artificial",
+        "definicion de ia"
+      ],
+      "response": "La inteligencia artificial es un conjunto de técnicas que permite a programas realizar tareas como clasificar datos, reconocer patrones o generar contenido."
+    },
+    {
+      "category": "Inteligencia artificial",
+      "keywords": [
+        "ia generativa",
+        "modelos generativos"
+      ],
+      "response": "La IA generativa produce texto, imágenes u otros contenidos a partir de patrones aprendidos. Este bot no genera con modelos externos; usa reglas y respuestas configuradas."
+    },
+    {
+      "category": "Inteligencia artificial",
+      "keywords": [
+        "entrenar modelo ia",
+        "entrenamiento de modelos"
+      ],
+      "response": "Entrenar un modelo requiere datos, cómputo y evaluación. Agregar una regla a la base de conocimiento no entrena un modelo: solo configura una respuesta determinista."
+    },
+    {
+      "category": "Inteligencia artificial",
+      "keywords": [
+        "alucinacion ia errores"
+      ],
+      "response": "Un modelo generativo puede inventar datos. Este bot reduce ese riesgo al responder desde reglas locales; si no encuentra una regla, debe reconocer que no sabe."
+    },
+    {
+      "category": "Inteligencia artificial",
+      "keywords": [
+        "ia local offline",
+        "modelo on device"
+      ],
+      "response": "Un modelo on-device se ejecuta en el equipo y puede funcionar sin conexión si sus archivos y recursos están instalados. Esta versión no incluye un modelo local."
+    },
+    {
+      "category": "Programación",
+      "keywords": [
+        "que es programar",
+        "programacion basica"
+      ],
+      "response": "Programar es escribir instrucciones que una computadora puede ejecutar. Empieza con un problema pequeño, divide los pasos y prueba el resultado."
+    },
+    {
+      "category": "Programación",
+      "keywords": [
+        "depurar codigo",
+        "debug error"
+      ],
+      "response": "Para depurar, reproduce el error, lee el mensaje y la traza, reduce el caso a lo mínimo y prueba una hipótesis por vez."
+    },
+    {
+      "category": "Programación",
+      "keywords": [
+        "que es una variable",
+        "variables programacion"
+      ],
+      "response": "Una variable es un nombre asociado a un valor que un programa puede consultar o cambiar durante su ejecución."
+    },
+    {
+      "category": "Programación",
+      "keywords": [
+        "que es una api",
+        "api significado"
+      ],
+      "response": "Una API define cómo dos programas intercambian solicitudes y respuestas. Revisa autenticación, formato, límites y errores del proveedor."
+    },
+    {
+      "category": "Programación",
+      "keywords": [
+        "pruebas automaticas",
+        "tests software"
+      ],
+      "response": "Las pruebas automatizadas ejecutan verificaciones repetibles sobre el código. Conviene cubrir funciones críticas, errores esperados y casos límite."
+    },
+    {
+      "category": "Programación",
+      "keywords": [
+        "control de versiones",
+        "para que sirve git"
+      ],
+      "response": "El control de versiones registra cambios, facilita colaborar y permite volver a versiones anteriores. Git es una herramienta distribuida muy usada."
+    },
+    {
+      "category": "Python",
+      "keywords": [
+        "lenguaje python",
+        "python lenguaje"
+      ],
+      "response": "Python es un lenguaje de programación de alto nivel conocido por su sintaxis legible y su ecosistema de bibliotecas."
+    },
+    {
+      "category": "Python",
+      "keywords": [
+        "venv python",
+        "entorno virtual python"
+      ],
+      "response": "Crea un entorno con `python -m venv .venv` y actívalo antes de instalar paquetes. Así separas dependencias de cada proyecto."
+    },
+    {
+      "category": "Python",
+      "keywords": [
+        "pip install",
+        "instalar paquetes python"
+      ],
+      "response": "Usa `python -m pip install nombre-paquete` dentro del entorno virtual. Guarda dependencias en requirements.txt para repetir la instalación."
+    },
+    {
+      "category": "Python",
+      "keywords": [
+        "asyncio python",
+        "programacion asincrona python"
+      ],
+      "response": "`asyncio` permite concurrencia cooperativa para tareas de I/O. Declara funciones con `async def` y espera operaciones asincrónicas con `await`."
+    },
+    {
+      "category": "Python",
+      "keywords": [
+        "try except python",
+        "excepciones python"
+      ],
+      "response": "Usa `try/except` para errores esperados y captura tipos concretos. No ocultes excepciones con un bloque general vacío."
+    },
+    {
+      "category": "Python",
+      "keywords": [
+        "listas diccionarios python",
+        "tipos de datos python"
+      ],
+      "response": "Python incluye números, cadenas, listas, tuplas, conjuntos y diccionarios. Elige estructuras según si necesitas orden, unicidad o pares clave-valor."
+    },
+    {
+      "category": "PHP",
+      "keywords": [
+        "lenguaje php",
+        "php backend"
+      ],
+      "response": "PHP es un lenguaje de servidor usado para aplicaciones web. Mantén la versión actualizada y escapa o parametriza datos según el contexto."
+    },
+    {
+      "category": "PHP",
+      "keywords": [
+        "composer php",
+        "dependencias php"
+      ],
+      "response": "Composer gestiona dependencias PHP. `composer install` instala las versiones del lockfile; no publiques credenciales del repositorio."
+    },
+    {
+      "category": "PHP",
+      "keywords": [
+        "pdo php sql",
+        "consultas preparadas php"
+      ],
+      "response": "Con PDO usa consultas preparadas y parámetros enlazados para evitar inyección SQL; no concatenes entradas de usuario en la consulta."
+    },
+    {
+      "category": "PHP",
+      "keywords": [
+        "sesiones php",
+        "session php"
+      ],
+      "response": "Las sesiones PHP guardan estado del lado servidor. Usa cookies seguras HttpOnly, Secure y SameSite, y regenera el ID al autenticar."
+    },
+    {
+      "category": "PHP",
+      "keywords": [
+        "validar formulario php",
+        "sanitizar php"
+      ],
+      "response": "Valida en servidor los tipos, rangos y formatos. Escapa la salida HTML con `htmlspecialchars` y no confíes solo en validaciones del navegador."
+    },
+    {
+      "category": "HTML5",
+      "keywords": [
+        "html5 que es",
+        "lenguaje html"
+      ],
+      "response": "HTML estructura el contenido de una página. Usa elementos semánticos como `main`, `nav`, `article` y etiquetas con texto alternativo."
+    },
+    {
+      "category": "HTML5",
+      "keywords": [
+        "formulario html",
+        "form html5"
+      ],
+      "response": "Usa `label` asociado a cada control, tipos de entrada correctos y validación tanto en cliente como en servidor."
+    },
+    {
+      "category": "HTML5",
+      "keywords": [
+        "accesibilidad html",
+        "aria html"
+      ],
+      "response": "Prioriza HTML semántico, orden de encabezados, etiquetas de formulario y texto alternativo. Usa ARIA solo cuando el HTML nativo no baste."
+    },
+    {
+      "category": "HTML5",
+      "keywords": [
+        "meta viewport movil",
+        "responsive viewport"
+      ],
+      "response": "`<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">` ayuda a que el diseño adopte el ancho del dispositivo móvil."
+    },
+    {
+      "category": "HTML5",
+      "keywords": [
+        "defer async script html"
+      ],
+      "response": "Usa `defer` para scripts que deben ejecutarse tras analizar el HTML y conserva el orden. Revisa origen y confiabilidad de recursos externos."
+    },
+    {
+      "category": "CSS3",
+      "keywords": [
+        "css estilos web",
+        "que es css"
+      ],
+      "response": "CSS controla presentación y diseño de documentos web. Mantén estilos organizados por componentes y evita duplicar reglas."
+    },
+    {
+      "category": "CSS3",
+      "keywords": [
+        "flexbox css",
+        "display flex"
+      ],
+      "response": "Flexbox distribuye elementos en una dimensión. Usa `display:flex`, `gap` y las propiedades de alineación para diseños de filas o columnas."
+    },
+    {
+      "category": "CSS3",
+      "keywords": [
+        "css grid",
+        "rejilla css"
+      ],
+      "response": "CSS Grid organiza contenido en dos dimensiones. Define columnas con `grid-template-columns` y adapta el diseño con media queries."
+    },
+    {
+      "category": "CSS3",
+      "keywords": [
+        "responsive css",
+        "diseno adaptable"
+      ],
+      "response": "Usa unidades flexibles, imágenes que no desborden y media queries basadas en el espacio disponible para adaptar la interfaz."
+    },
+    {
+      "category": "CSS3",
+      "keywords": [
+        "custom properties css",
+        "variables css"
+      ],
+      "response": "Declara propiedades como `--color-acento` en `:root` y consúmelas con `var(--color-acento)` para mantener temas consistentes."
+    },
+    {
+      "category": "JavaScript",
+      "keywords": [
+        "javascript que es",
+        "lenguaje js"
+      ],
+      "response": "JavaScript añade comportamiento a páginas y también funciona en servidores con entornos como Node.js."
+    },
+    {
+      "category": "JavaScript",
+      "keywords": [
+        "diferencia const let var",
+        "variables javascript"
+      ],
+      "response": "Usa `const` por defecto y `let` si reasignarás el valor. Evita `var` en código moderno por sus reglas de alcance confusas."
+    },
+    {
+      "category": "JavaScript",
+      "keywords": [
+        "async await javascript",
+        "promesas js"
+      ],
+      "response": "`async/await` simplifica el trabajo con Promises. Maneja errores con `try/catch` y muestra estados de carga al usuario."
+    },
+    {
+      "category": "JavaScript",
+      "keywords": [
+        "parse stringify json",
+        "json javascript"
+      ],
+      "response": "`JSON.parse` convierte texto JSON en datos y `JSON.stringify` hace lo contrario. Valida la estructura antes de confiar en los datos."
+    },
+    {
+      "category": "JavaScript",
+      "keywords": [
+        "innerhtml seguridad",
+        "xss javascript"
+      ],
+      "response": "Evita insertar entrada no confiable con `innerHTML`. Prefiere `textContent` y aplica políticas de seguridad de contenido."
+    },
+    {
+      "category": "GitHub",
+      "keywords": [
+        "crear repositorio github",
+        "repositorio github"
+      ],
+      "response": "En GitHub crea un repositorio y elige visibilidad privada si contiene código no público. Nunca incluyas tokens, claves ni archivos `.env`."
+    },
+    {
+      "category": "GitHub",
+      "keywords": [
+        "hacer commit git",
+        "commit cambios"
+      ],
+      "response": "Un commit guarda una instantánea de cambios. Usa un mensaje claro y revisa `git status` y `git diff` antes de confirmar."
+    },
+    {
+      "category": "GitHub",
+      "keywords": [
+        "crear branch git",
+        "ramas github"
+      ],
+      "response": "Las ramas permiten trabajar en cambios aislados. Crea una rama, prueba los cambios y abre un pull request para revisarlos antes de fusionar."
+    },
+    {
+      "category": "GitHub",
+      "keywords": [
+        "gitignore archivos",
+        "ignorar env git"
+      ],
+      "response": "`.gitignore` evita agregar archivos locales como `.env`, bases de datos y cachés. Si un secreto ya fue subido, revócalo: borrar el archivo no basta."
+    },
+    {
+      "category": "GitHub",
+      "keywords": [
+        "github actions workflow",
+        "ci github"
+      ],
+      "response": "GitHub Actions automatiza tareas mediante YAML en `.github/workflows`. Limita permisos del `GITHUB_TOKEN` y protege secretos en settings."
+    },
+    {
+      "category": "GitHub",
+      "keywords": [
+        "token personal github",
+        "pat github"
+      ],
+      "response": "Prefiere tokens fine-grained, con vencimiento y acceso mínimo. Guarda el token en un gestor de secretos y revócalo si se expone."
+    },
+    {
+      "category": "Vercel",
+      "keywords": [
+        "vercel plataforma",
+        "deploy vercel"
+      ],
+      "response": "Vercel es una plataforma para construir y desplegar aplicaciones web. Verifica compatibilidad del runtime y configura variables en el panel seguro."
+    },
+    {
+      "category": "Vercel",
+      "keywords": [
+        "vercel archivos persistentes",
+        "filesystem serverless vercel"
+      ],
+      "response": "En funciones serverless no debes asumir que el disco local es persistente. Usa una base de datos o almacenamiento persistente externo para datos duraderos."
+    },
+    {
+      "category": "Vercel",
+      "keywords": [
+        "variables entorno vercel",
+        "environment variables vercel"
+      ],
+      "response": "Configura secretos desde los ajustes del proyecto y limita su disponibilidad por entorno. No agregues credenciales al código cliente."
+    },
+    {
+      "category": "Vercel",
+      "keywords": [
+        "desplegar proyecto vercel",
+        "deploy vercel github"
+      ],
+      "response": "Conecta el repositorio, configura build y variables, despliega y revisa logs. Para cambios de producción, comprueba el dominio y salud del servicio."
+    },
+    {
+      "category": "Vercel",
+      "keywords": [
+        "funciones serverless vercel",
+        "serverless functions"
+      ],
+      "response": "Una función serverless puede reiniciarse y escalar en varias instancias. Diseña sin depender de memoria de proceso ni archivos efímeros."
+    },
+    {
+      "category": "Telegram",
+      "keywords": [
+        "crear bot telegram",
+        "botfather token"
+      ],
+      "response": "Crea un bot con BotFather y guarda el token como secreto. Nunca lo publiques ni lo incluyas en mensajes de log."
+    },
+    {
+      "category": "Telegram",
+      "keywords": [
+        "webhook telegram configurar",
+        "telegram setwebhook"
+      ],
+      "response": "Un webhook HTTPS recibe actualizaciones de Telegram. Protege la ruta con `secret_token` y valida el encabezado `X-Telegram-Bot-Api-Secret-Token`."
+    },
+    {
+      "category": "Telegram",
+      "keywords": [
+        "getupdates telegram",
+        "long polling telegram"
+      ],
+      "response": "Long polling consulta actualizaciones periódicamente y es útil durante desarrollo. Evita usarlo al mismo tiempo que un webhook para el mismo bot."
+    },
+    {
+      "category": "Telegram",
+      "keywords": [
+        "chat id telegram",
+        "uid telegram"
+      ],
+      "response": "El ID del chat es distinto del nombre visible. Trata ese identificador como dato personal y no lo uses como contraseña ni lo publiques."
+    },
+    {
+      "category": "Telegram",
+      "keywords": [
+        "sendmessage telegram",
+        "enviar mensaje bot"
+      ],
+      "response": "La API `sendMessage` requiere token del bot y un `chat_id`. Respeta consentimiento, límites y políticas contra mensajes no solicitados."
+    },
+    {
+      "category": "Tecnología",
+      "keywords": [
+        "computacion en la nube",
+        "cloud computing"
+      ],
+      "response": "La nube ofrece cómputo y servicios a través de Internet. Revisa disponibilidad, costos, residencia de datos, copias de seguridad y salida del proveedor."
+    },
+    {
+      "category": "Tecnología",
+      "keywords": [
+        "que es una base de datos",
+        "database"
+      ],
+      "response": "Una base de datos organiza y consulta información. Elige tecnología según concurrencia, consistencia, crecimiento, respaldo y operación."
+    },
+    {
+      "category": "Tecnología",
+      "keywords": [
+        "sqlite que es",
+        "base de datos sqlite"
+      ],
+      "response": "SQLite es una base de datos embebida en un archivo, útil para apps locales y prototipos. En despliegues serverless su archivo puede no persistir."
+    },
+    {
+      "category": "Tecnología",
+      "keywords": [
+        "redis que es",
+        "cache redis"
+      ],
+      "response": "Redis es un almacén en memoria usado para caché, colas y datos compartidos de baja latencia. Define expiración y no lo trates automáticamente como backup."
+    },
+    {
+      "category": "Tecnología",
+      "keywords": [
+        "rest api",
+        "metodos http api"
+      ],
+      "response": "Una API REST suele exponer recursos con HTTP. Usa GET para lectura, POST para creación y valida autorización en cada operación."
+    },
+    {
+      "category": "Tecnología",
+      "keywords": [
+        "backup base de datos",
+        "respaldo datos"
+      ],
+      "response": "Haz copias cifradas, automáticas y probadas. Una copia no verificada o almacenada junto al original puede no servir ante un incidente."
+    },
+    {
+      "category": "Seguridad",
+      "keywords": [
+        "crear contrasena segura",
+        "password fuerte"
+      ],
+      "response": "Usa una contraseña única y larga, idealmente generada por un administrador de contraseñas. Activa MFA y no la compartas por chat."
+    },
+    {
+      "category": "Seguridad",
+      "keywords": [
+        "hash password",
+        "bcrypt argon2"
+      ],
+      "response": "Las contraseñas deben almacenarse con un hash lento y salado como Argon2id o bcrypt, nunca en texto plano ni con SHA-256 simple."
+    },
+    {
+      "category": "Seguridad",
+      "keywords": [
+        "hmac sha256 que es",
+        "firma webhook hmac"
+      ],
+      "response": "HMAC verifica autenticidad e integridad con un secreto compartido. Calcula sobre los bytes exactos recibidos y compara firmas en tiempo constante."
+    },
+    {
+      "category": "Seguridad",
+      "keywords": [
+        "limitar solicitudes api",
+        "rate limit"
+      ],
+      "response": "El rate limiting limita frecuencia por cliente para reducir abuso. En varias instancias se necesita un contador compartido o protección en el proxy."
+    },
+    {
+      "category": "Seguridad",
+      "keywords": [
+        "evitar sql injection",
+        "inyeccion sql"
+      ],
+      "response": "Usa consultas parametrizadas, valida tipos y aplica mínimo privilegio. No construyas SQL concatenando texto proveniente del usuario."
+    },
+    {
+      "category": "Seguridad",
+      "keywords": [
+        "que es https tls",
+        "certificado tls"
+      ],
+      "response": "HTTPS cifra la conexión y valida el servidor. En producción fuerza TLS moderno y evita enviar tokens por URLs o redes sin cifrar."
+    },
+    {
+      "category": "Seguridad",
+      "keywords": [
+        "least privilege seguridad",
+        "minimo privilegio"
+      ],
+      "response": "Concede a cada cuenta solo los permisos imprescindibles y revísalos periódicamente. Limita también duración y alcance de tokens."
+    },
+    {
+      "category": "Seguridad",
+      "keywords": [
+        "guardar api keys",
+        "secrets management"
+      ],
+      "response": "Guarda claves en el gestor de secretos del despliegue o del sistema, limita su acceso y rótalas. Nunca las escribas en repositorios."
+    },
+    {
+      "category": "Seguridad",
+      "keywords": [
+        "validar input usuario",
+        "input validation"
+      ],
+      "response": "Valida longitud, tipo, rango y formato en servidor. Sanea para el contexto de salida; una única función de saneamiento no cubre todos los ataques."
+    },
+    {
+      "category": "Seguridad",
+      "keywords": [
+        "audit log seguridad",
+        "registro auditoria"
+      ],
+      "response": "Registra quién hizo qué y cuándo, pero redacta secretos y datos privados. Protege los registros contra alteración y limita su retención."
+    },
+    {
+      "category": "Privacidad",
+      "keywords": [
+        "consentimiento memoria usuario",
+        "guardar recuerdos permiso"
+      ],
+      "response": "Los recuerdos personales deben guardarse solo con autorización clara, propósito definido y una forma sencilla de consultar y borrar."
+    },
+    {
+      "category": "Privacidad",
+      "keywords": [
+        "borrar mis datos privacidad",
+        "derecho supresion datos"
+      ],
+      "response": "Al borrar datos, revisa también copias, índices, cachés, colas y registros. Documenta límites de retención y el alcance del borrado."
+    },
+    {
+      "category": "Privacidad",
+      "keywords": [
+        "minimizacion datos personales",
+        "recoger pocos datos"
+      ],
+      "response": "Recopila solo datos necesarios para una función concreta y consérvalos el tiempo mínimo. Evita registrar mensajes completos por defecto."
+    },
+    {
+      "category": "Privacidad",
+      "keywords": [
+        "datos sensibles privacidad",
+        "informacion confidencial"
+      ],
+      "response": "No almacenes información sensible sin una necesidad, base legal, autorización y controles apropiados. Protege el acceso y cifra respaldos."
+    },
+    {
+      "category": "Privacidad",
+      "keywords": [
+        "separar datos por uid",
+        "aislamiento usuarios"
+      ],
+      "response": "Incluye el UID autenticado en cada consulta y comprueba propiedad dentro de la consulta. No confíes en un UID que el cliente pueda cambiar."
+    },
+    {
+      "category": "Privacidad",
+      "keywords": [
+        "leer perfil redes sociales",
+        "datos redes sociales api"
+      ],
+      "response": "Una integración solo debe leer datos que la plataforma permita y la persona autorice. No se debe inferir ni mezclar identidades de distintas cuentas."
+    },
+    {
+      "category": "Privacidad",
+      "keywords": [
+        "anonimizar datos usuarios",
+        "seudonimizar"
+      ],
+      "response": "La seudonimización reemplaza identificadores directos, pero los datos pueden seguir siendo reidentificables. Evalúa combinaciones y acceso."
+    },
+    {
+      "category": "Privacidad",
+      "keywords": [
+        "retencion datos personales",
+        "cuanto guardar logs"
+      ],
+      "response": "Define plazos según finalidad y requisitos legales. Programa eliminación automática y comunica qué datos sobreviven al borrado de perfil."
+    },
+    {
+      "category": "Servicios",
+      "keywords": [
+        "estado del bot servicio",
+        "health check"
+      ],
+      "response": "El endpoint `/health` indica si la aplicación responde, no garantiza que todas las integraciones externas estén disponibles."
+    },
+    {
+      "category": "Servicios",
+      "keywords": [
+        "cola mensajes offline",
+        "mensajes pendientes sqlite"
+      ],
+      "response": "La cola local puede guardar mensajes mientras la red no está disponible y reintentarlos al volver. No puede entregar mensajes si el servidor está apagado."
+    },
+    {
+      "category": "Servicios",
+      "keywords": [
+        "monitorizar aplicacion",
+        "metricas logs alertas"
+      ],
+      "response": "Monitorea disponibilidad, latencia, errores y tamaño de cola. No incluyas tokens, mensajes privados ni datos sensibles en logs."
+    },
+    {
+      "category": "Servicios",
+      "keywords": [
+        "escalar backend",
+        "horizontal scaling api"
+      ],
+      "response": "Al escalar horizontalmente, comparte datos y límites entre instancias, añade idempotencia y usa almacenamiento persistente diseñado para concurrencia."
+    },
+    {
+      "category": "Servicios",
+      "keywords": [
+        "configurar env variables",
+        "archivo env"
+      ],
+      "response": "Carga configuración desde variables de entorno o gestores de secretos. Mantén `.env` fuera del repositorio y usa valores distintos por entorno."
+    },
+    {
+      "category": "Preguntas frecuentes",
+      "keywords": [
+        "bot no responde",
+        "no recibo respuesta chatbot"
+      ],
+      "response": "Comprueba que el servidor esté activo, el webhook apunte al dominio HTTPS, la firma sea válida y las credenciales de envío no hayan expirado."
+    },
+    {
+      "category": "Preguntas frecuentes",
+      "keywords": [
+        "webhook 401 unauthorized",
+        "firma invalida webhook"
+      ],
+      "response": "Un 401 suele indicar firma o secreto incorrectos. Verifica el secreto configurado y el cuerpo original; no desactives la validación para ocultar el problema."
+    },
+    {
+      "category": "Preguntas frecuentes",
+      "keywords": [
+        "webhook 403 verify token",
+        "hub verify token error"
+      ],
+      "response": "Comprueba que el token de verificación coincida exactamente y que la ruta GET de desafío sea la configurada en el proveedor."
+    },
+    {
+      "category": "Preguntas frecuentes",
+      "keywords": [
+        "recibi mensajes duplicados bot",
+        "webhook retry duplicate"
+      ],
+      "response": "Los proveedores pueden reintentar eventos. Guarda el ID del evento y procesa con idempotencia para evitar respuestas duplicadas."
+    },
+    {
+      "category": "Preguntas frecuentes",
+      "keywords": [
+        "respuesta no configurada faq",
+        "pregunta desconocida bot"
+      ],
+      "response": "Si no existe una regla coincidente, el bot debe decirlo claramente. Un administrador puede investigar la pregunta y aprobar una regla general."
+    },
+    {
+      "category": "Preguntas frecuentes",
+      "keywords": [
+        "editar respuestas bot",
+        "configurar knowledge json"
+      ],
+      "response": "Edita `config/knowledge.json` o usa el panel administrativo protegido. Valida el JSON, evita duplicar reglas y recarga la configuración."
+    },
+    {
+      "category": "Solución de problemas",
+      "keywords": [
+        "modulenotfounderror python",
+        "import error python"
+      ],
+      "response": "Activa el entorno virtual e instala `requirements.txt`. Comprueba que ejecutas el comando desde la raíz y que el módulo esté en el proyecto."
+    },
+    {
+      "category": "Solución de problemas",
+      "keywords": [
+        "port already in use python",
+        "puerto ocupado servidor"
+      ],
+      "response": "Cierra el proceso que utiliza el puerto o configura `PORT` con otro valor. No expongas un puerto de desarrollo directamente a Internet."
+    },
+    {
+      "category": "Solución de problemas",
+      "keywords": [
+        "database is locked sqlite",
+        "sqlite locked"
+      ],
+      "response": "Usa transacciones breves, WAL y una sola instancia escritora cuando sea posible. SQLite puede no ser adecuada para concurrencia alta o múltiples nodos."
+    },
+    {
+      "category": "Solución de problemas",
+      "keywords": [
+        "cors error api",
+        "problema cors navegador"
+      ],
+      "response": "CORS controla qué orígenes del navegador pueden leer respuestas. Configura una lista explícita de dominios; CORS no reemplaza la autenticación."
+    },
+    {
+      "category": "Solución de problemas",
+      "keywords": [
+        "http 500 internal server error",
+        "error servidor 500"
+      ],
+      "response": "Revisa logs de servidor sin secretos, reproduce la solicitud y busca la excepción. Devuelve al cliente un mensaje genérico, no trazas internas."
+    },
+    {
+      "category": "Solución de problemas",
+      "keywords": [
+        "deploy failed build error",
+        "fallo despliegue"
+      ],
+      "response": "Revisa logs de construcción, versión de Python, dependencias y variables obligatorias. Comprueba health check y que la base de datos persista."
+    },
+    {
+      "category": "Cuentas y autenticación",
+      "keywords": [
+        "bearer token autorizacion",
+        "authorization bearer"
+      ],
+      "response": "Un Bearer token autoriza a quien lo posee. Envíalo en el encabezado Authorization sobre HTTPS y trátalo como una contraseña."
+    },
+    {
+      "category": "Cuentas y autenticación",
+      "keywords": [
+        "autenticacion multifactor mfa",
+        "doble factor cuenta"
+      ],
+      "response": "MFA añade un segundo factor a la contraseña. Usa una app de autenticación o llave de seguridad y guarda códigos de recuperación fuera de línea."
+    },
+    {
+      "category": "Cuentas y autenticación",
+      "keywords": [
+        "token expirado api",
+        "credential expired"
+      ],
+      "response": "Renueva el token en el proveedor mediante su flujo oficial y actualiza el gestor de secretos. Revoca el token viejo al terminar."
+    },
+    {
+      "category": "Cuentas y autenticación",
+      "keywords": [
+        "oauth scopes permisos",
+        "permisos oauth app"
+      ],
+      "response": "OAuth scopes delimitan lo que una aplicación puede hacer. Pide el mínimo necesario y revisa consentimiento, caducidad y revocación."
+    },
+    {
+      "category": "Cuentas y autenticación",
+      "keywords": [
+        "cerrar sesiones activas",
+        "revocar sesiones cuenta"
+      ],
+      "response": "Cierra sesiones desde la configuración oficial de la cuenta y revoca tokens desconocidos. Cambia la contraseña si sospechas acceso no autorizado."
+    },
+    {
+      "category": "UID y usuarios",
+      "keywords": [
+        "uid usuario identificador",
+        "identificador unico usuario"
+      ],
+      "response": "Un UID es un identificador estable. Debe ser único, no derivarse del nombre visible y tener alcance claro, por ejemplo plataforma más ID de usuario."
+    },
+    {
+      "category": "UID y usuarios",
+      "keywords": [
+        "nombre como identificador",
+        "nombre no unico"
+      ],
+      "response": "Los nombres se repiten y pueden cambiar, así que no sirven como clave primaria. Usa un UID estable y guarda el nombre como atributo separado."
+    },
+    {
+      "category": "UID y usuarios",
+      "keywords": [
+        "cambiar nombre preferido usuario",
+        "como quieres que te llame"
+      ],
+      "response": "Puedes actualizar el nombre preferido desde el perfil. El identificador UID se mantiene igual aunque cambie el nombre."
+    },
+    {
+      "category": "UID y usuarios",
+      "keywords": [
+        "no mezclar cuentas sociales",
+        "cuentas diferentes usuario"
+      ],
+      "response": "Las identidades de distintas plataformas quedan separadas salvo que la persona autorice y se verifique una vinculación explícita."
+    },
+    {
+      "category": "UID y usuarios",
+      "keywords": [
+        "eliminar perfil usuario uid",
+        "borrar cuenta chatbot"
+      ],
+      "response": "Al borrar perfil se eliminan datos vinculados al UID local. Comprueba también sistemas externos y copias según la política de retención."
+    },
+    {
+      "category": "Desarrollo web y operación",
+      "keywords": [
+        "configuracion aplicacion settings",
+        "config de app"
+      ],
+      "response": "Separa configuración del código. Valida variables obligatorias al arrancar y falla de forma segura si faltan secretos requeridos."
+    },
+    {
+      "category": "Desarrollo web y operación",
+      "keywords": [
+        "que es docker contenedor",
+        "dockerfile"
+      ],
+      "response": "Docker empaqueta aplicación y dependencias en una imagen reproducible. Ejecuta como usuario sin privilegios y no copies secretos a la imagen."
+    },
+    {
+      "category": "Desarrollo web y operación",
+      "keywords": [
+        "ci cd que significa",
+        "integracion continua despliegue"
+      ],
+      "response": "CI ejecuta verificaciones en cambios de código; CD automatiza entrega. Protege ramas y exige pruebas antes de desplegar a producción."
+    },
+    {
+      "category": "Desarrollo web y operación",
+      "keywords": [
+        "logs estructurados json",
+        "logging python"
+      ],
+      "response": "Los logs estructurados facilitan filtrar eventos. Registra IDs de correlación y errores, pero oculta credenciales y contenido privado."
+    },
+    {
+      "category": "Desarrollo web y operación",
+      "keywords": [
+        "documentar endpoint api",
+        "openapi swagger"
+      ],
+      "response": "Documenta entradas, salidas, autenticación y errores. No reveles endpoints internos o esquemas sensibles a usuarios no autorizados."
+    },
+    {
+      "category": "Mensajería y comportamiento",
+      "keywords": [
+        "respuesta lenta bot",
+        "bot tarda en contestar"
+      ],
+      "response": "La demora puede depender del proveedor, red o cola local. Revisa latencia, errores y tamaño de cola; responde rápido al webhook y procesa después."
+    },
+    {
+      "category": "Mensajería y comportamiento",
+      "keywords": [
+        "spam mensajes bot",
+        "mensajes sin permiso"
+      ],
+      "response": "Envía mensajes solo a destinatarios que lo permitan y respeta límites, bajas y políticas de cada plataforma."
+    },
+    {
+      "category": "Mensajería y comportamiento",
+      "keywords": [
+        "mensaje privado chatbot",
+        "contenido sensible bot"
+      ],
+      "response": "Evita repetir datos privados en respuestas. Confirma identidad y autorización antes de mostrar información personal o ejecutar acciones."
+    },
+    {
+      "category": "Mensajería y comportamiento",
+      "keywords": [
+        "mantener contexto chat",
+        "recordar conversacion"
+      ],
+      "response": "El historial local limitado ayuda a mantener contexto. No garantiza comprensión abierta; esta versión no usa un modelo generativo externo."
+    },
+    {
+      "category": "Mensajería y comportamiento",
+      "keywords": [
+        "cambiar idioma bot",
+        "preferencia idioma usuario"
+      ],
+      "response": "Puedes actualizar el idioma preferido de tu perfil. Las respuestas disponibles dependen de las reglas traducidas y configuradas."
+    },
+    {
+      "category": "Conceptos de datos",
+      "keywords": [
+        "primary key base datos",
+        "clave primaria sql"
+      ],
+      "response": "Una clave primaria identifica cada fila y debe ser estable y única. No uses atributos que puedan cambiar como el nombre."
+    },
+    {
+      "category": "Conceptos de datos",
+      "keywords": [
+        "indice base datos index",
+        "sql index"
+      ],
+      "response": "Un índice acelera ciertas consultas a cambio de almacenamiento y escrituras más costosas. Créalo para columnas que se buscan con frecuencia."
+    },
+    {
+      "category": "Conceptos de datos",
+      "keywords": [
+        "transaccion database acid",
+        "sql transaction"
+      ],
+      "response": "Una transacción agrupa operaciones que deben confirmarse o revertirse juntas. Mantén transacciones breves para reducir bloqueos."
+    },
+    {
+      "category": "Conceptos de datos",
+      "keywords": [
+        "migracion base datos schema",
+        "database migration"
+      ],
+      "response": "Una migración registra cambios de esquema de forma versionada y repetible. Haz backup y prueba migraciones antes de producción."
+    },
+    {
+      "category": "Conceptos de datos",
+      "keywords": [
+        "cifrar base de datos local",
+        "encryption at rest"
+      ],
+      "response": "El cifrado en reposo protege archivos ante acceso físico, pero no reemplaza controles de usuario ni TLS. Gestiona claves fuera del archivo cifrado."
+    },
+    {
+      "category": "Soporte y configuración",
+      "keywords": [
+        "contactar administrador bot",
+        "necesito soporte"
+      ],
+      "response": "Contacta al administrador del proyecto e incluye una descripción del problema, hora aproximada y código de error, nunca credenciales."
+    },
+    {
+      "category": "Soporte y configuración",
+      "keywords": [
+        "reiniciar chatbot servicio",
+        "restart app"
+      ],
+      "response": "Reinicia mediante el supervisor o plataforma de despliegue y comprueba `/health` y logs. Si usas SQLite, conserva el volumen persistente."
+    },
+    {
+      "category": "Soporte y configuración",
+      "keywords": [
+        "actualizar pip packages",
+        "upgrade dependencias"
+      ],
+      "response": "Actualiza dependencias con pruebas y versiones revisadas. Usa lockfile o restricciones reproducibles y atiende avisos de seguridad."
+    },
+    {
+      "category": "Soporte y configuración",
+      "keywords": [
+        "proyecto privado github",
+        "repositorio privado"
+      ],
+      "response": "Un repositorio privado limita visibilidad, pero no protege secretos subidos. Usa MFA, permisos mínimos, análisis de secretos y rotación."
+    },
+    {
+      "category": "Soporte y configuración",
+      "keywords": [
+        "conectar whatsapp telegram redes",
+        "integrar plataformas bot"
+      ],
+      "response": "Cada plataforma requiere app, permisos, tokens y configuración de webhook propios. El administrador debe configurar credenciales y validar cada entorno."
+    }
+  ]
+}
